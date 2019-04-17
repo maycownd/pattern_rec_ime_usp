@@ -9,6 +9,17 @@ IrisSetosa = IrisType(id=1, name="Iris-Setosa")
 
 
 # TODO: Passo 4 - implemente a classe que representa uma flor de Iris aqui.
+class Iris:
+	def __init__(self, sepal_width, sepal_length, type):
+		self.sepal_width = sepal_width
+		self.sepal_length = sepal_length
+		self.type = type
+
+	def attr_to_list(self):
+		return [self.sepal_width, self.sepal_length, self.type.name]
+
+	def to_csv(self):
+		return str(self.sepal_width, ";", self.sepal_length, ";", self.type.id)
 
 
 # ============== Dataset ===============================================
