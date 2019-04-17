@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d367e74c-dffe-4b9f-a3c1-2edf24ece44c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/pattern_rec_ime_usp.iml" afterPath="$PROJECT_DIR$/.idea/pattern_rec_ime_usp.iml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Exercício 1/Exercicio-Programa/app/iris/dataset.py" afterPath="$PROJECT_DIR$/Exercício 1/Exercicio-Programa/app/iris/dataset.py" />
-      <change beforePath="$PROJECT_DIR$/Exercício 1/Exercicio-Programa/app/irisapp.py" afterPath="$PROJECT_DIR$/Exercício 1/Exercicio-Programa/app/irisapp.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -208,6 +203,14 @@
       <option name="presentableId" value="Default" />
       <updated>1555506223370</updated>
     </task>
+    <task id="LOCAL-00001" summary="3.5 step 4">
+      <created>1555509848141</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1555509848141</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -242,6 +245,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="3.5 step 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="3.5 step 4" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
