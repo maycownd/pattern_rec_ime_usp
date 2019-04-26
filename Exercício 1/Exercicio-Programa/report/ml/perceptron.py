@@ -20,28 +20,17 @@ class PerceptronBatch:
         np.random.seed(self.random_state)
         self.w = np.random.rand(1, n)
         self.b = np.random.rand(1, 1)
-        # x = x.reshape(n, m)
         while True:
-            # for i in range(n):
-            #     z[i] = w.T.dot(x[i, :].reshape(m, 1)) + b
-            #     e[i] = y[i] - self.__phi(np.array([z[i]]))
-            #     delta_w = delta_w + e[i] * x[i, :].reshape(m, 1)
-            #     delta_b = delta_b + e[i]
             z = np.dot(self.w, x.T) + self.b
             e = y.T - self.__phi(z)
-            # print(e.shape)
-            # print(x.shape)
             delta_w = np.dot(e, x)
-            # print(delta_w.shape)
             delta_b = np.sum(e)
-            # print(delta_b.shape)
-            # print(delta_b)
             delta_w = delta_w / n
             delta_b = delta_b / n
             self.w = self.w + self.eta * delta_w
             self.b = self.b + self.eta * delta_b
             epochs = epochs + 1
-            if (sum(e.T) == 0):
+            if sum(e.T) == 0:
                 break
 
     def predict(self, x):
@@ -51,4 +40,3 @@ class PerceptronBatch:
         :return: numpy array
         """
         return self.__phi(np.dot(self.w, x.T) + self.b)
-
