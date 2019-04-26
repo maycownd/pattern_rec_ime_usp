@@ -1,5 +1,6 @@
 import numpy as np
 
+
 class PerceptronBatch:
     def __init__(self, random_state=0, eta=0.001):
         self.random_state = random_state
@@ -10,33 +11,37 @@ class PerceptronBatch:
     def __phi(self, z):
         return np.sign(z)
 
-
     def fit(self, x, y):
         """
         Fit method for Perceptron Batch: https://www.cis.upenn.edu/~cis519/fall2014/lectures/04_LinearClassificationPerceptron.pdf
         """
         epochs = 0
-        n, m = x.shape
+        m, n = x.shape
         np.random.seed(self.random_state)
-        self.w = np.random.rand(m, 1)
+        self.w = np.random.rand(1, n)
         self.b = np.random.rand(1, 1)
-        x = x.reshape(x.shape[1], x.shape[0])
+        # x = x.reshape(n, m)
         while True:
             # for i in range(n):
             #     z[i] = w.T.dot(x[i, :].reshape(m, 1)) + b
             #     e[i] = y[i] - self.__phi(np.array([z[i]]))
             #     delta_w = delta_w + e[i] * x[i, :].reshape(m, 1)
             #     delta_b = delta_b + e[i]
-            z = np.dot(self.w.T, x) + self.b
-            e = y - self.__phi(z)
-            delta_w = np.sum(e*x)
+            z = np.dot(self.w, x.T) + self.b
+            e = y.T - self.__phi(z)
+            # print(e.shape)
+            # print(x.shape)
+            delta_w = np.dot(e, x)
+            # print(delta_w.shape)
             delta_b = np.sum(e)
+            # print(delta_b.shape)
+            # print(delta_b)
             delta_w = delta_w / n
             delta_b = delta_b / n
             self.w = self.w + self.eta * delta_w
             self.b = self.b + self.eta * delta_b
             epochs = epochs + 1
-            if sum(e) == 0 or epochs == 100:
+            if (sum(e.T) == 0):
                 break
 
     def predict(self, x):
@@ -45,5 +50,5 @@ class PerceptronBatch:
         :param x: numpy array
         :return: numpy array
         """
-        return self.__phi(np.dot(x, self.w) + self.b)
+        return self.__phi(np.dot(self.w, x.T) + self.b)
 

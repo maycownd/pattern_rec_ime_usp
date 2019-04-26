@@ -4,9 +4,11 @@ class IrisType:
         self.id = id
         self.name = name
 
+
 IrisVersicolor = IrisType(id=0, name="Iris-Versicolor")
 IrisSetosa = IrisType(id=1, name="Iris-Setosa")
 IrisVirginica = IrisType(id=2, name="Iris-Virginica")
+
 
 class Iris:
     def __init__(self, sepal_width, sepal_length, type):
@@ -22,7 +24,6 @@ class Iris:
 
         self.type = iris
 
-
     def __iter__(self):
         return iter(self.attr_to_list())
 
@@ -30,7 +31,7 @@ class Iris:
         return [self.sepal_width, self.sepal_length, self.type.name]
 
     def to_csv(self):
-        return str(self.sepal_width, ";", self.sepal_length, ";", self.type.id)
+        return str("{}; {}; {}".format(self.sepal_width, self.sepal_length, self.type.id))
 
 
 # ============== Dataset ===============================================
