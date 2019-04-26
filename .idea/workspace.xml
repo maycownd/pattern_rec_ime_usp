@@ -1,19 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d367e74c-dffe-4b9f-a3c1-2edf24ece44c" name="Default" comment="3.8 step 8">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/other.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Exercício 1/Exercicio-Programa/app/iris/ioiris.py" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/pattern_rec_ime_usp.iml" afterPath="$PROJECT_DIR$/.idea/pattern_rec_ime_usp.iml" />
+    <list default="true" id="d367e74c-dffe-4b9f-a3c1-2edf24ece44c" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/Exercício 1/Exercicio-Programa/app/teste.csv" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Exercício 1/Exercicio-Programa/report/ml/perceptron.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Exercício 1/Exercicio-Programa/app/iris/app.py" afterPath="$PROJECT_DIR$/Exercício 1/Exercicio-Programa/app/iris/app.py" />
-      <change beforePath="$PROJECT_DIR$/Exercício 1/Exercicio-Programa/app/iris/dataset.py" afterPath="$PROJECT_DIR$/Exercício 1/Exercicio-Programa/app/iris/dataset.py" />
-      <change beforePath="$PROJECT_DIR$/Exercício 1/Exercicio-Programa/app/iris/io.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Exercício 1/Exercicio-Programa/app/irisapp.py" afterPath="$PROJECT_DIR$/Exercício 1/Exercicio-Programa/app/irisapp.py" />
-      <change beforePath="$PROJECT_DIR$/Exercício 1/Exercicio-Programa/app/treino.csv" afterPath="$PROJECT_DIR$/Exercício 1/Exercicio-Programa/app/treino.csv" />
-      <change beforePath="$PROJECT_DIR$/Exercício 1/Exercicio-Programa/report/.ipynb_checkpoints/perceptron-checkpoint.ipynb" afterPath="$PROJECT_DIR$/Exercício 1/Exercicio-Programa/report/.ipynb_checkpoints/perceptron-checkpoint.ipynb" />
-      <change beforePath="$PROJECT_DIR$/Exercício 1/Exercicio-Programa/report/perceptron.ipynb" afterPath="$PROJECT_DIR$/Exercício 1/Exercicio-Programa/report/perceptron.ipynb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -260,7 +251,14 @@
       <option name="project" value="LOCAL" />
       <updated>1555509848141</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Ex 2 Perceptron">
+      <created>1556255322121</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1556255322122</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -274,7 +272,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -282,7 +279,7 @@
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25718608" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25718608" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -309,7 +306,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="3.5 step 4" />
     <MESSAGE value="3.8 step 8" />
-    <option name="LAST_COMMIT_MESSAGE" value="3.8 step 8" />
+    <MESSAGE value="Ex 2 Perceptron" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ex 2 Perceptron" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
