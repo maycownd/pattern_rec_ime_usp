@@ -1,6 +1,7 @@
-from iris.dataset import Dataset, Iris
-from iris.ioiris import write_iris_dataset
 from tabulate import tabulate
+
+from dataset import Iris
+from ioiris import write_iris_dataset
 
 
 class IrisApplication:

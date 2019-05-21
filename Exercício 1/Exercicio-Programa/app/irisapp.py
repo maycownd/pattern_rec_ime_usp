@@ -1,6 +1,6 @@
-from iris.app import IrisApplication
-from iris.dataset import Dataset
-from iris.ioiris import read_iris_dataset
+from app import IrisApplication
+from dataset import Dataset
+from ioiris import read_iris_dataset
 
 """
     Declarações das funções visíveis nesse programa.
