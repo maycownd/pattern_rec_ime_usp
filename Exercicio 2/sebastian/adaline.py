@@ -23,11 +23,12 @@ class AdalineGD(object):
       Sum-of-squares cost function value in each epoch.
     """
 
-    def __init__(self, eta=0.01, n_iter=50, random_state=1, threshold=None):
+    def __init__(self, eta=0.01, n_iter=None, random_state=1, threshold=None):
         self.eta = eta
         self.n_iter = n_iter
         self.random_state = random_state
         self.threshold = threshold
+        self.iterations = None
 
     def fit(self, x, y):
         """ Fit training data.
@@ -45,8 +46,8 @@ class AdalineGD(object):
         rgen = np.random.RandomState(self.random_state)
         self.w_ = rgen.normal(loc=0.0, scale=0.01, size=1 + x.shape[1])
         self.cost_ = []
-
-        for i in range(self.n_iter):
+        i = 0
+        while True:
             net_input = self.net_input(x)
             # Please note that the "activation" method has no effect
             # in the code since it is simply an identity function. We
@@ -63,6 +64,10 @@ class AdalineGD(object):
             self.cost_.append(cost)
             if self.threshold is not None and cost < self.threshold:
                 break
+            if self.n_iter is not None and i == self.n_iter:
+                break
+            i += 1
+        self.iterations = i + 1
         return self
 
     def net_input(self, X):
@@ -105,13 +110,14 @@ class AdalineSGD(object):
 
     """
 
-    def __init__(self, eta=0.01, n_iter=10, shuffle=True, random_state=None, threshold=None):
+    def __init__(self, eta=0.01, n_iter=None, shuffle=True, random_state=None, threshold=None):
         self.eta = eta
         self.n_iter = n_iter
         self.w_initialized = False
         self.shuffle = shuffle
         self.random_state = random_state
         self.threshold = threshold
+        self.iterations = None
 
     def fit(self, X, y):
         """ Fit training data.
@@ -128,7 +134,8 @@ class AdalineSGD(object):
         """
         self._initialize_weights(X.shape[1])
         self.cost_ = []
-        for i in range(self.n_iter):
+        i = 0
+        while True:
             if self.shuffle:
                 X, y = self._shuffle(X, y)
             cost = []
@@ -136,8 +143,14 @@ class AdalineSGD(object):
                 cost.append(self._update_weights(xi, target))
             avg_cost = sum(cost) / len(y)
             self.cost_.append(avg_cost)
+
             if self.threshold is not None and avg_cost < self.threshold:
                 break
+            if self.n_iter is not None and i == self.n_iter:
+                break
+            i += 1
+
+        self.iterations = i + 1
         return self
 
     def partial_fit(self, X, y):

@@ -2,33 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d367e74c-dffe-4b9f-a3c1-2edf24ece44c" name="Default" comment="Exercicio programa 2 e Projeto">
-      <change afterPath="$PROJECT_DIR$/Exercicio 2/.ipynb_checkpoints/exercicio-programa-2-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercicio 2/benlau/polynomials.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercicio 2/dataset/ex2.data" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercicio 2/dataset/ex3.data" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercicio 2/dataset/ex4.data" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercicio 2/dataset/ex5.data" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercicio 2/dataset/ex6.data" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercicio 2/dataset/ex8.data" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercicio 2/dataset/heart.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercicio 2/exercicio-programa-2.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercicio 2/sebastian/adaline.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercicio 2/sebastian/logistic_regression.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercicio 2/sebastian/perceptron.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercicio 2/sebastian/ploting.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projeto/.ipynb_checkpoints/Gene Prediction-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projeto/Gene Prediction.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projeto/data/x_test.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projeto/data/x_train.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projeto/data/y_train.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projeto/notebooks/.ipynb_checkpoints/Untitled-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projeto/src/gene_prediction/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projeto/src/gene_prediction/gene_prediction.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercício 1/Exercicio-Programa/app/iris/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/Exercício 1/Exercicio-Programa/app/iris/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercício 1/Exercicio-Programa/app/irisapp.py" beforeDir="false" afterPath="$PROJECT_DIR$/Exercício 1/Exercicio-Programa/app/irisapp.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercício 1/Exercicio-Programa/report/.ipynb_checkpoints/perceptron-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Exercício 1/Exercicio-Programa/report/.ipynb_checkpoints/perceptron-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercício 1/Exercicio-Programa/report/perceptron.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Exercício 1/Exercicio-Programa/report/perceptron.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercicio 2/.ipynb_checkpoints/exercicio-programa-2-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Exercicio 2/.ipynb_checkpoints/exercicio-programa-2-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercicio 2/benlau/polynomials.py" beforeDir="false" afterPath="$PROJECT_DIR$/Exercicio 2/benlau/polynomials.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercicio 2/exercicio-programa-2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Exercicio 2/exercicio-programa-2.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercicio 2/sebastian/adaline.py" beforeDir="false" afterPath="$PROJECT_DIR$/Exercicio 2/sebastian/adaline.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,37 +20,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Exercício 1/Exercicio-Programa/app/irisapp.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Exercicio 2/sebastian/adaline.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="67" column="24" selection-start-line="67" selection-start-column="24" selection-end-line="67" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Exercício 1/Exercicio-Programa/app/iris/dataset.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="481">
-              <caret line="61" selection-start-line="61" selection-end-line="61" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Exercício 1/Exercicio-Programa/app/iris/app.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+            <state relative-caret-position="2190">
+              <caret line="146" column="54" selection-start-line="146" selection-start-column="54" selection-end-line="146" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -80,8 +31,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Exercicio 2/sebastian/logistic_regression.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="63" column="16" selection-start-line="63" selection-start-column="16" selection-end-line="63" selection-end-column="16" />
+            <state relative-caret-position="1095">
+              <caret line="73" column="57" selection-start-line="73" selection-start-column="15" selection-end-line="73" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -89,8 +40,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Exercicio 2/sebastian/perceptron.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="56" column="16" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="16" />
+            <state relative-caret-position="435">
+              <caret line="29" column="25" selection-start-line="29" selection-end-line="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Exercicio 2/benlau/polynomials.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -137,11 +100,12 @@
         <option value="$PROJECT_DIR$/Projeto/src/__init__.py" />
         <option value="$PROJECT_DIR$/projeto/src/gene_prediction/__init__.py" />
         <option value="$PROJECT_DIR$/projeto/src/gene_prediction/gene_prediction.py" />
-        <option value="$PROJECT_DIR$/Exercicio 2/sebastian/logistic_regression.py" />
         <option value="$PROJECT_DIR$/Exercicio 2/sebastian/perceptron.py" />
-        <option value="$PROJECT_DIR$/Exercicio 2/sebastian/adaline.py" />
-        <option value="$PROJECT_DIR$/Exercício 1/Exercicio-Programa/app/iris/app.py" />
         <option value="$PROJECT_DIR$/Exercício 1/Exercicio-Programa/app/irisapp.py" />
+        <option value="$PROJECT_DIR$/Exercício 1/Exercicio-Programa/app/iris/app.py" />
+        <option value="$PROJECT_DIR$/Exercicio 2/sebastian/logistic_regression.py" />
+        <option value="$PROJECT_DIR$/Exercicio 2/sebastian/adaline.py" />
+        <option value="$PROJECT_DIR$/Exercicio 2/benlau/polynomials.py" />
       </list>
     </option>
   </component>
@@ -154,7 +118,7 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="724" />
+    <option name="height" value="723" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -162,6 +126,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -177,28 +142,8 @@
             <path>
               <item name="pattern_rec_ime_usp" type="b2602c69:ProjectViewProjectNode" />
               <item name="pattern_rec_ime_usp" type="462c0819:PsiDirectoryNode" />
-              <item name="Exercício 1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pattern_rec_ime_usp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pattern_rec_ime_usp" type="462c0819:PsiDirectoryNode" />
-              <item name="Exercício 1" type="462c0819:PsiDirectoryNode" />
-              <item name="Exercicio-Programa" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pattern_rec_ime_usp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pattern_rec_ime_usp" type="462c0819:PsiDirectoryNode" />
-              <item name="Exercício 1" type="462c0819:PsiDirectoryNode" />
-              <item name="Exercicio-Programa" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pattern_rec_ime_usp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pattern_rec_ime_usp" type="462c0819:PsiDirectoryNode" />
-              <item name="Exercício 1" type="462c0819:PsiDirectoryNode" />
-              <item name="Exercicio-Programa" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="iris" type="462c0819:PsiDirectoryNode" />
+              <item name="Exercicio 2" type="462c0819:PsiDirectoryNode" />
+              <item name="benlau" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pattern_rec_ime_usp" type="b2602c69:ProjectViewProjectNode" />
@@ -209,7 +154,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -342,7 +286,14 @@
       <option name="project" value="LOCAL" />
       <updated>1556301789148</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Exercicio programa 2 e Projeto">
+      <created>1558446076458</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1558446076458</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -355,13 +306,12 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="726" extended-state="6" />
+    <frame x="0" y="23" width="1280" height="724" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.273021" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29402262" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Inspection Results" visible="true" weight="0.329653" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32847896" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32753164" />
@@ -376,6 +326,7 @@
       <window_info anchor="bottom" id="Python Console" order="11" weight="0.32847896" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="SonarLint" order="13" weight="0.3280757" />
+      <window_info active="true" anchor="bottom" id="Inspection Results" order="14" visible="true" weight="0.329653" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -426,34 +377,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Exercicio 2/sebastian/ploting.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Exercicio 2/sebastian/logistic_regression.py">
+    <entry file="file://$PROJECT_DIR$/Exercício 1/Exercicio-Programa/app/iris/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="63" column="16" selection-start-line="63" selection-start-column="16" selection-end-line="63" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Exercicio 2/sebastian/perceptron.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="56" column="16" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="16" />
+        <state relative-caret-position="180">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Exercício 1/Exercicio-Programa/app/iris/dataset.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
+        <state relative-caret-position="558">
           <caret line="61" selection-start-line="61" selection-end-line="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Exercicio 2/sebastian/adaline.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="67" column="24" selection-start-line="67" selection-start-column="24" selection-end-line="67" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -464,10 +401,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Exercício 1/Exercicio-Programa/app/iris/app.py">
+    <entry file="file://$PROJECT_DIR$/Exercicio 2/sebastian/adaline.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+        <state relative-caret-position="2190">
+          <caret line="146" column="54" selection-start-line="146" selection-start-column="54" selection-end-line="146" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exercicio 2/sebastian/logistic_regression.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1095">
+          <caret line="73" column="57" selection-start-line="73" selection-start-column="15" selection-end-line="73" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exercicio 2/sebastian/perceptron.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="25" selection-start-line="29" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exercicio 2/sebastian/ploting.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exercicio 2/benlau/polynomials.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

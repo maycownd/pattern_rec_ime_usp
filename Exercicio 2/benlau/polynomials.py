@@ -4,7 +4,12 @@ from matplotlib.colors import ListedColormap
 
 
 def feature2d_to_polynomial(feature1, feature2, poly_degree):
-    pass
+    out = np.ones(len(feature1)).reshape(len(feature1), 1)
+    for i in range(1, poly_degree + 1):
+        for j in range(i + 1):
+            terms = (feature1 ** (i - j) * feature2 ** j).reshape(len(feature1), 1)
+            out = np.hstack((out, terms))
+    return out
 
 
 def plot_decision_regions_polynomials(X, y, classifier, test_idx=None, resolution=0.02,
